@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1f1f1f, #333); /* Modern background */
+    color: white;
+}
+
+header {
+    background: linear-gradient(to bottom, #ffcc00, #ff9900); /* Yellow gradient */
+    color: black;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* 3D shadow effect */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* 3D effect */
+}
+
+nav {
+    background: #262626;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 3D effect */
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.skills {
+    padding: 20px;
+    background: #262626;
+    border: 1px solid #ffcc00;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* 3D effect */
+}
+
+.skills h2 {
+    margin-bottom: 15px;
+    color: #ffcc00; /* Yellow heading */
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.skills p, .container p {
+    text-align: justify;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: white; /* White text for paragraphs */
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.skills li strong {
+    color: #ffcc00; /* Yellow for emphasis */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #262626;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* 3D effect */
+}
+
+article h2 {
+    color: #ffcc00; /* Yellow heading */
+    font-size: 1.6em;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(to right, #ffcc00, #ff9900); /* Yellow gradient */
+    color: black;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2); /* 3D shadow effect */
+}
+
+button {
+    padding: 10px 20px;
+    background: #262626;
+    color: #ffcc00;
+    border: 1px solid #ffcc00;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 3D effect */
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #ffcc00;
+    color: black;
+}
